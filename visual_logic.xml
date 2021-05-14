@@ -1,0 +1,42 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="787" scrolly="431" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="1148.8000000000002" scrolly="537.3" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="^ouiqGLYR3g)#^[ill2=" x="-1050" y="-450">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <block type="text" id="s`f14IJG^:!uO^k`%W!p">
+          <field name="TEXT">hide_button</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="hide" id="okwhX,krHUnfrutN-ONC">
+          <value name="VALUE">
+            <block type="objectList" id="TtoFdP:}k_;Fs}Ipt~vh">
+              <field name="FIELDNAME">Mesh_6</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="N@3gXhVwRR|:@*-9.:fq" x="-1070" y="-350">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <block type="text" id="DQiMu70R1DNCcWU=rj*Z">
+          <field name="TEXT">show_button</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="show" id="1JvI7-=3Gzv*T;MP(38t">
+          <value name="VALUE">
+            <block type="objectList" id="LE%1$I(}OA7t8%J-2e]f">
+              <field name="FIELDNAME">Mesh_6</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1134" viewport-y="28" viewport-w="768" viewport-h="469" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
